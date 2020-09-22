@@ -57,14 +57,14 @@ var main = {
 
         $.ajax({
             type: 'DELETE',
-            url: '/api/v1/posts' +id,
+            url: '/api/v1/posts/' +id,
             dataType: 'json',
-            contentType: 'application/json; charset=utf-8',
+            contentType: 'application/json; charset=utf-8'
         }).done(function () {
             alert('글이 삭제되었습니다');
             window.location.href='/';
         }).fail(function (error) {
-            alert(JSON.stringify(error))
+            alert(JSON.stringify(error));
         });
         }
 };
