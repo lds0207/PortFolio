@@ -1,3 +1,4 @@
+/*
 package com.PortFoli.dong.springboot.web.dto;
 
 import org.junit.Test;
@@ -20,3 +21,4 @@ public class HelloResponseDtoTest {
         assertThat(dto.getAmount()).isEqualTo(amount);
     }
 }
+*/

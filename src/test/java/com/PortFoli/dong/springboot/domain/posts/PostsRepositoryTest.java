@@ -1,3 +1,4 @@
+/*
 package com.PortFoli.dong.springboot.domain.posts;
 
 import org.junit.After;
@@ -69,3 +70,4 @@ public class PostsRepositoryTest {
         assertThat(posts.getModifiedDateTime()).isAfter(now);
     }
 }
+*/
